@@ -1,0 +1,15 @@
+[project]
+name = "md2html"
+version = "0.1.0"
+description = "A CLI tool that converts Markdowns to HTML"
+authors = [{name = "Ameet"}]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["markdown"]
+
+[project.scripts]
+md2html = "md2html.cli:run"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"

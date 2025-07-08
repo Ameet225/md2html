@@ -25,6 +25,9 @@ pip install -e .
 
 ## Usage
 ```
-md2html -i sample.md -o output.html
+md2html -i input.md -o output.html
 ```
-📌 Replace sample.md and output.html with your actual filenames
+📌 Replace input.md and output.html with your actual filenames.
+📌 Make sure input.md is in your current folder, or provide the full/relative path.
+📁 The output file will be saved wherever you specify in `-o`.  
+If no folder is mentioned, it will be created in the current directory.

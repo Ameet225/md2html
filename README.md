@@ -30,4 +30,4 @@ md2html -i input.md -o output.html
 📌 Replace input.md and output.html with your actual filenames.<br>
 📌 Make sure input.md is in your current folder, or provide the full/relative path.<br>
 📁 The output file will be saved wherever you specify in `-o`.<br>
-If no folder is mentioned, it will be created in the current directory.
+    If no folder is mentioned, it will be created in the current directory.
